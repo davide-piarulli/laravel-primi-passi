@@ -22,10 +22,10 @@
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <a class="nav-link" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pricing">Pricing</a>
+                            <a class="nav-link" href="{{ route('pricing') }}">Pricing</a>
                         </li>
 
                     </ul>
