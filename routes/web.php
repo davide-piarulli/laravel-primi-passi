@@ -20,3 +20,11 @@ Route::get('/', function () {
     $city = 'Tenerife';
     return view('homepage', compact('fullname', 'age', 'city'));
 })->name('home');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/pricing', function () {
+    return view('pricing');
+})->name('pricing');
