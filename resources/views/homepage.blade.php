@@ -14,9 +14,11 @@
 <body>
     <div class="container my-5 ">
         <h1>Hello World!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis, illum nesciunt ab exercitationem
-            minima accusantium ipsam, minus natus eum officiis quaerat ut culpa debitis dolore mollitia eius! Placeat,
-            rerum.</p>
+        <p>Il mio nome è: {{ $fullname }}</p>
+        <p>Ho: {{ $age }} anni</p>
+        <p>Vivo a: {{ $city }}</p>
+
+
     </div>
 </body>
 
